@@ -74,8 +74,8 @@ const App = () => {
       <WeatherBackground condition={getWeatherCondition()} />
        
        <div className='flex items-center justify-center p-6 min-h-screen'>
-        <div className='bg-transparent backdrop-filter backdrop-blur-md rounded-xl 
-        shadow-2xl p-8 max-w-md w-full border border-white/30 relative z-10  text-yellow-950'>
+        <div className='bg-gray-600/50 backdrop-filter backdrop-blur-md rounded-xl 
+        shadow-2xl p-8 max-w-md w-full border border-white/30 relative z-10  text-white'>
           <h1 className='text-4xl font-extrabold text-center mb-6'>
             Weather App
           </h1>
